@@ -7,11 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- * File : AddrBean.java
- * Desc : 주소록 프로그램 DAO 클래스
- * @author 황희정(dinfree@dinfree.com)
- */
 public class AddrBean { 
 	
 	Connection conn = null;
