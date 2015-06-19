@@ -16,8 +16,6 @@
 
 	// 메인 페이지 이동
 	if (action.equals("mMain")) {
-		/* ArrayList<WACH_Define> datas = gb.getMenu();
-		request.setAttribute("datas", datas); */
 		pageContext.forward("mMain.jsp");
 	}
 
@@ -32,15 +30,11 @@
 
 	// 영업안내 페이지 이동
 	else if (action.equals("mBusiness")) {
-		/* ArrayList<WACH_Define> datas = gb.getDBList();
-		request.setAttribute("datas", datas); */
 		pageContext.forward("mBusiness.jsp");
 	}
 
 	// 길 안내 Start 페이지 이동
 	else if (action.equals("mGuideWayStart")) {
-		/* ArrayList<WACH_Define> datas = gb.getDBList();
-		request.setAttribute("datas", datas); */
 		pageContext.forward("mGuideWayStart.jsp");
 	}
 
@@ -53,14 +47,10 @@
 
 	// 길 안내 지도 안내 페이지 이동
 	else if (action.equals("mGuideWayLocation")) {
-		/* ArrayList<WACH_Define> datas = gb.getDBList();
-		request.setAttribute("datas", datas); */
 		pageContext.forward("mGuideWayLocation.jsp");
 	}
 	// 프로젝트 정보 페이지 이동
 	else if (action.equals("mProject")) {
-		/* ArrayList<WACH_Define> datas = gb.getDBList();
-		request.setAttribute("datas", datas); */
 		pageContext.forward("mProject.jsp");
 	}
 %>
