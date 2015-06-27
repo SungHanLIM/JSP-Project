@@ -12,11 +12,6 @@ public class AddrBean {
 	Connection conn = null;
 	PreparedStatement pstmt = null;
 	
-	/* Oracle 연결정보
-	String jdbc_driver = "oracle.jdbc.driver.OracleDriver";
-	String jdbc_url = "jdbc:oracle:thin:@220.68.14.7:1521";
-	*/
-	
 	/* MySQL 연결정보 */
 	String jdbc_driver = "com.mysql.jdbc.Driver";
 	String jdbc_url = "jdbc:mysql://127.0.0.1:3306/jspdb"; 
